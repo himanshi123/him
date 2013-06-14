@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD84344D176AED43009E078E /* commenttextbg.png in Resources */ = {isa = PBXBuildFile; fileRef = AD84344C176AED43009E078E /* commenttextbg.png */; };
+		AD8B801E176988E9002E469C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8B801D176988E9002E469C /* UIKit.framework */; };
+		AD8B8020176988E9002E469C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8B801F176988E9002E469C /* Foundation.framework */; };
+		AD8B8022176988E9002E469C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8B8021176988E9002E469C /* CoreGraphics.framework */; };
+		AD8B8028176988E9002E469C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD8B8026176988E9002E469C /* InfoPlist.strings */; };
+		AD8B802A176988E9002E469C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B8029176988E9002E469C /* main.m */; };
+		AD8B802E176988EA002E469C /* RBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B802D176988EA002E469C /* RBAppDelegate.m */; };
+		AD8B8030176988EA002E469C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B802F176988EA002E469C /* Default.png */; };
+		AD8B8032176988EA002E469C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B8031176988EA002E469C /* Default@2x.png */; };
+		AD8B8034176988EA002E469C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B8033176988EA002E469C /* Default-568h@2x.png */; };
+		AD8B8037176988EA002E469C /* RBChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B8036176988EA002E469C /* RBChatsViewController.m */; };
+		AD8B803A176988EA002E469C /* RBChatsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8B8038176988EA002E469C /* RBChatsViewController.xib */; };
+		AD8B8042176988EA002E469C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8B8041176988EA002E469C /* SenTestingKit.framework */; };
+		AD8B8043176988EA002E469C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8B801D176988E9002E469C /* UIKit.framework */; };
+		AD8B8044176988EA002E469C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8B801F176988E9002E469C /* Foundation.framework */; };
+		AD8B804C176988EA002E469C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD8B804A176988EA002E469C /* InfoPlist.strings */; };
+		AD8B804F176988EA002E469C /* RainbowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B804E176988EA002E469C /* RainbowTests.m */; };
+		AD8B805E17698A76002E469C /* TRSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B805B17698A76002E469C /* TRSideMenu.m */; };
+		AD8B805F17698A76002E469C /* TRSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B805B17698A76002E469C /* TRSideMenu.m */; };
+		AD8B806017698A76002E469C /* UINavigationController+MFSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B805D17698A76002E469C /* UINavigationController+MFSideMenu.m */; };
+		AD8B806117698A76002E469C /* UINavigationController+MFSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B805D17698A76002E469C /* UINavigationController+MFSideMenu.m */; };
+		AD8B80641769923B002E469C /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B80631769923B002E469C /* SideMenuViewController.m */; };
+		AD8B80651769923B002E469C /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B80631769923B002E469C /* SideMenuViewController.m */; };
+		AD8B806E176998A9002E469C /* RBFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B806C176998A9002E469C /* RBFriendsViewController.m */; };
+		AD8B806F176998A9002E469C /* RBFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B806C176998A9002E469C /* RBFriendsViewController.m */; };
+		AD8B8070176998A9002E469C /* RBFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8B806D176998A9002E469C /* RBFriendsViewController.xib */; };
+		AD8B8071176998A9002E469C /* RBFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8B806D176998A9002E469C /* RBFriendsViewController.xib */; };
+		AD8B8075176998BF002E469C /* RBSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B8073176998BF002E469C /* RBSettingsViewController.m */; };
+		AD8B8076176998BF002E469C /* RBSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B8073176998BF002E469C /* RBSettingsViewController.m */; };
+		AD8B8077176998BF002E469C /* RBSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8B8074176998BF002E469C /* RBSettingsViewController.xib */; };
+		AD8B8078176998BF002E469C /* RBSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8B8074176998BF002E469C /* RBSettingsViewController.xib */; };
+		AD8B807C176998D8002E469C /* RBGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B807A176998D8002E469C /* RBGroupsViewController.m */; };
+		AD8B807D176998D8002E469C /* RBGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B807A176998D8002E469C /* RBGroupsViewController.m */; };
+		AD8B807E176998D8002E469C /* RBGroupsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8B807B176998D8002E469C /* RBGroupsViewController.xib */; };
+		AD8B807F176998D8002E469C /* RBGroupsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8B807B176998D8002E469C /* RBGroupsViewController.xib */; };
+		AD8B8083176998F0002E469C /* RBProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B8081176998F0002E469C /* RBProfileViewController.m */; };
+		AD8B8084176998F0002E469C /* RBProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B8081176998F0002E469C /* RBProfileViewController.m */; };
+		AD8B8085176998F0002E469C /* RBProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8B8082176998F0002E469C /* RBProfileViewController.xib */; };
+		AD8B8086176998F0002E469C /* RBProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8B8082176998F0002E469C /* RBProfileViewController.xib */; };
+		AD8B808A17699E85002E469C /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B808817699E85002E469C /* menu-icon.png */; };
+		AD8B808B17699E85002E469C /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B808817699E85002E469C /* menu-icon.png */; };
+		AD8B808C17699E85002E469C /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B808917699E85002E469C /* menu-icon@2x.png */; };
+		AD8B808D17699E85002E469C /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B808917699E85002E469C /* menu-icon@2x.png */; };
+		AD8B80911769C6E3002E469C /* RBUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B80901769C6E3002E469C /* RBUserCell.m */; };
+		AD8B80921769C6E3002E469C /* RBUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8B80901769C6E3002E469C /* RBUserCell.m */; };
+		AD8B80941769D6FD002E469C /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B80931769D6FD002E469C /* profile.png */; };
+		AD8B80951769D6FD002E469C /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B80931769D6FD002E469C /* profile.png */; };
+		AD8B80971769D846002E469C /* circle_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B80961769D846002E469C /* circle_cover.png */; };
+		AD8B80981769D846002E469C /* circle_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B80961769D846002E469C /* circle_cover.png */; };
+		AD8B809A1769FFD6002E469C /* bgview.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B80991769FFD6002E469C /* bgview.png */; };
+		AD8B809B1769FFD6002E469C /* bgview.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B80991769FFD6002E469C /* bgview.png */; };
+		AD8B809D1769FFFD002E469C /* start-button.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B809C1769FFFD002E469C /* start-button.png */; };
+		AD8B809E1769FFFD002E469C /* start-button.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B809C1769FFFD002E469C /* start-button.png */; };
+		AD8B80A0176A0479002E469C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8B809F176A0478002E469C /* QuartzCore.framework */; };
+		AD8B80A2176A09EF002E469C /* notes.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B80A1176A09EF002E469C /* notes.png */; };
+		AD8B80A3176A09EF002E469C /* notes.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8B80A1176A09EF002E469C /* notes.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD8B8045176988EA002E469C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8B8012176988E9002E469C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD8B8019176988E9002E469C;
+			remoteInfo = Rainbow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD84344C176AED43009E078E /* commenttextbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = commenttextbg.png; sourceTree = "<group>"; };
+		AD8B801A176988E9002E469C /* Rainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8B801D176988E9002E469C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD8B801F176988E9002E469C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD8B8021176988E9002E469C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD8B8025176988E9002E469C /* Rainbow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rainbow-Info.plist"; sourceTree = "<group>"; };
+		AD8B8027176988E9002E469C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD8B8029176988E9002E469C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD8B802B176988E9002E469C /* Rainbow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rainbow-Prefix.pch"; sourceTree = "<group>"; };
+		AD8B802C176988EA002E469C /* RBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBAppDelegate.h; sourceTree = "<group>"; };
+		AD8B802D176988EA002E469C /* RBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBAppDelegate.m; sourceTree = "<group>"; };
+		AD8B802F176988EA002E469C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AD8B8031176988EA002E469C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AD8B8033176988EA002E469C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AD8B8035176988EA002E469C /* RBChatsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBChatsViewController.h; sourceTree = "<group>"; };
+		AD8B8036176988EA002E469C /* RBChatsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBChatsViewController.m; sourceTree = "<group>"; };
+		AD8B8039176988EA002E469C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RBChatsViewController.xib; sourceTree = "<group>"; };
+		AD8B8040176988EA002E469C /* RainbowTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8B8041176988EA002E469C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AD8B8049176988EA002E469C /* RainbowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RainbowTests-Info.plist"; sourceTree = "<group>"; };
+		AD8B804B176988EA002E469C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD8B804D176988EA002E469C /* RainbowTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainbowTests.h; sourceTree = "<group>"; };
+		AD8B804E176988EA002E469C /* RainbowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainbowTests.m; sourceTree = "<group>"; };
+		AD8B805A17698A76002E469C /* TRSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSideMenu.h; sourceTree = "<group>"; };
+		AD8B805B17698A76002E469C /* TRSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSideMenu.m; sourceTree = "<group>"; };
+		AD8B805C17698A76002E469C /* UINavigationController+MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MFSideMenu.h"; sourceTree = "<group>"; };
+		AD8B805D17698A76002E469C /* UINavigationController+MFSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MFSideMenu.m"; sourceTree = "<group>"; };
+		AD8B80621769923B002E469C /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		AD8B80631769923B002E469C /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		AD8B806B176998A9002E469C /* RBFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBFriendsViewController.h; sourceTree = "<group>"; };
+		AD8B806C176998A9002E469C /* RBFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBFriendsViewController.m; sourceTree = "<group>"; };
+		AD8B806D176998A9002E469C /* RBFriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBFriendsViewController.xib; sourceTree = "<group>"; };
+		AD8B8072176998BF002E469C /* RBSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSettingsViewController.h; sourceTree = "<group>"; };
+		AD8B8073176998BF002E469C /* RBSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSettingsViewController.m; sourceTree = "<group>"; };
+		AD8B8074176998BF002E469C /* RBSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBSettingsViewController.xib; sourceTree = "<group>"; };
+		AD8B8079176998D8002E469C /* RBGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBGroupsViewController.h; sourceTree = "<group>"; };
+		AD8B807A176998D8002E469C /* RBGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBGroupsViewController.m; sourceTree = "<group>"; };
+		AD8B807B176998D8002E469C /* RBGroupsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBGroupsViewController.xib; sourceTree = "<group>"; };
+		AD8B8080176998F0002E469C /* RBProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBProfileViewController.h; sourceTree = "<group>"; };
+		AD8B8081176998F0002E469C /* RBProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBProfileViewController.m; sourceTree = "<group>"; };
+		AD8B8082176998F0002E469C /* RBProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBProfileViewController.xib; sourceTree = "<group>"; };
+		AD8B808817699E85002E469C /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
+		AD8B808917699E85002E469C /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
+		AD8B808F1769C6E3002E469C /* RBUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBUserCell.h; sourceTree = "<group>"; };
+		AD8B80901769C6E3002E469C /* RBUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBUserCell.m; sourceTree = "<group>"; };
+		AD8B80931769D6FD002E469C /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		AD8B80961769D846002E469C /* circle_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_cover.png; sourceTree = "<group>"; };
+		AD8B80991769FFD6002E469C /* bgview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgview.png; sourceTree = "<group>"; };
+		AD8B809C1769FFFD002E469C /* start-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start-button.png"; sourceTree = "<group>"; };
+		AD8B809F176A0478002E469C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AD8B80A1176A09EF002E469C /* notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notes.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD8B8017176988E9002E469C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8B80A0176A0479002E469C /* QuartzCore.framework in Frameworks */,
+				AD8B801E176988E9002E469C /* UIKit.framework in Frameworks */,
+				AD8B8020176988E9002E469C /* Foundation.framework in Frameworks */,
+				AD8B8022176988E9002E469C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8B803C176988EA002E469C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8B8042176988EA002E469C /* SenTestingKit.framework in Frameworks */,
+				AD8B8043176988EA002E469C /* UIKit.framework in Frameworks */,
+				AD8B8044176988EA002E469C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD8B8011176988E9002E469C = {
+			isa = PBXGroup;
+			children = (
+				AD8B809F176A0478002E469C /* QuartzCore.framework */,
+				AD8B8023176988E9002E469C /* Rainbow */,
+				AD8B8047176988EA002E469C /* RainbowTests */,
+				AD8B801C176988E9002E469C /* Frameworks */,
+				AD8B801B176988E9002E469C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD8B801B176988E9002E469C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B801A176988E9002E469C /* Rainbow.app */,
+				AD8B8040176988EA002E469C /* RainbowTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD8B801C176988E9002E469C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B801D176988E9002E469C /* UIKit.framework */,
+				AD8B801F176988E9002E469C /* Foundation.framework */,
+				AD8B8021176988E9002E469C /* CoreGraphics.framework */,
+				AD8B8041176988EA002E469C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD8B8023176988E9002E469C /* Rainbow */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B808E1769C595002E469C /* Cells */,
+				AD8B8087176999A9002E469C /* Images */,
+				AD8B805917698A4B002E469C /* Flyout Classes */,
+				AD8B80581769892D002E469C /* ViewControllers */,
+				AD8B802C176988EA002E469C /* RBAppDelegate.h */,
+				AD8B802D176988EA002E469C /* RBAppDelegate.m */,
+				AD8B8024176988E9002E469C /* Supporting Files */,
+			);
+			path = Rainbow;
+			sourceTree = "<group>";
+		};
+		AD8B8024176988E9002E469C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B8025176988E9002E469C /* Rainbow-Info.plist */,
+				AD8B8026176988E9002E469C /* InfoPlist.strings */,
+				AD8B8029176988E9002E469C /* main.m */,
+				AD8B802B176988E9002E469C /* Rainbow-Prefix.pch */,
+				AD8B802F176988EA002E469C /* Default.png */,
+				AD8B8031176988EA002E469C /* Default@2x.png */,
+				AD8B8033176988EA002E469C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD8B8047176988EA002E469C /* RainbowTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B804D176988EA002E469C /* RainbowTests.h */,
+				AD8B804E176988EA002E469C /* RainbowTests.m */,
+				AD8B8048176988EA002E469C /* Supporting Files */,
+			);
+			path = RainbowTests;
+			sourceTree = "<group>";
+		};
+		AD8B8048176988EA002E469C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B8049176988EA002E469C /* RainbowTests-Info.plist */,
+				AD8B804A176988EA002E469C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD8B80581769892D002E469C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B806A17699873002E469C /* Me */,
+				AD8B806917699842002E469C /* Groups */,
+				AD8B806817699832002E469C /* Settings */,
+				AD8B806717699822002E469C /* Friends */,
+				AD8B806617699809002E469C /* Chats */,
+				AD8B80621769923B002E469C /* SideMenuViewController.h */,
+				AD8B80631769923B002E469C /* SideMenuViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AD8B805917698A4B002E469C /* Flyout Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B805A17698A76002E469C /* TRSideMenu.h */,
+				AD8B805B17698A76002E469C /* TRSideMenu.m */,
+				AD8B805C17698A76002E469C /* UINavigationController+MFSideMenu.h */,
+				AD8B805D17698A76002E469C /* UINavigationController+MFSideMenu.m */,
+			);
+			name = "Flyout Classes";
+			sourceTree = "<group>";
+		};
+		AD8B806617699809002E469C /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B8035176988EA002E469C /* RBChatsViewController.h */,
+				AD8B8036176988EA002E469C /* RBChatsViewController.m */,
+				AD8B8038176988EA002E469C /* RBChatsViewController.xib */,
+			);
+			name = Chats;
+			sourceTree = "<group>";
+		};
+		AD8B806717699822002E469C /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B806B176998A9002E469C /* RBFriendsViewController.h */,
+				AD8B806C176998A9002E469C /* RBFriendsViewController.m */,
+				AD8B806D176998A9002E469C /* RBFriendsViewController.xib */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		AD8B806817699832002E469C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B8072176998BF002E469C /* RBSettingsViewController.h */,
+				AD8B8073176998BF002E469C /* RBSettingsViewController.m */,
+				AD8B8074176998BF002E469C /* RBSettingsViewController.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		AD8B806917699842002E469C /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B8079176998D8002E469C /* RBGroupsViewController.h */,
+				AD8B807A176998D8002E469C /* RBGroupsViewController.m */,
+				AD8B807B176998D8002E469C /* RBGroupsViewController.xib */,
+			);
+			name = Groups;
+			sourceTree = "<group>";
+		};
+		AD8B806A17699873002E469C /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B8080176998F0002E469C /* RBProfileViewController.h */,
+				AD8B8081176998F0002E469C /* RBProfileViewController.m */,
+				AD8B8082176998F0002E469C /* RBProfileViewController.xib */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		AD8B8087176999A9002E469C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AD84344C176AED43009E078E /* commenttextbg.png */,
+				AD8B80A1176A09EF002E469C /* notes.png */,
+				AD8B809C1769FFFD002E469C /* start-button.png */,
+				AD8B80991769FFD6002E469C /* bgview.png */,
+				AD8B80961769D846002E469C /* circle_cover.png */,
+				AD8B80931769D6FD002E469C /* profile.png */,
+				AD8B808817699E85002E469C /* menu-icon.png */,
+				AD8B808917699E85002E469C /* menu-icon@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AD8B808E1769C595002E469C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B808F1769C6E3002E469C /* RBUserCell.h */,
+				AD8B80901769C6E3002E469C /* RBUserCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD8B8019176988E9002E469C /* Rainbow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8B8052176988EA002E469C /* Build configuration list for PBXNativeTarget "Rainbow" */;
+			buildPhases = (
+				AD8B8016176988E9002E469C /* Sources */,
+				AD8B8017176988E9002E469C /* Frameworks */,
+				AD8B8018176988E9002E469C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rainbow;
+			productName = Rainbow;
+			productReference = AD8B801A176988E9002E469C /* Rainbow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD8B803F176988EA002E469C /* RainbowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8B8055176988EA002E469C /* Build configuration list for PBXNativeTarget "RainbowTests" */;
+			buildPhases = (
+				AD8B803B176988EA002E469C /* Sources */,
+				AD8B803C176988EA002E469C /* Frameworks */,
+				AD8B803D176988EA002E469C /* Resources */,
+				AD8B803E176988EA002E469C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD8B8046176988EA002E469C /* PBXTargetDependency */,
+			);
+			name = RainbowTests;
+			productName = RainbowTests;
+			productReference = AD8B8040176988EA002E469C /* RainbowTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD8B8012176988E9002E469C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Sudhanshu;
+			};
+			buildConfigurationList = AD8B8015176988E9002E469C /* Build configuration list for PBXProject "Rainbow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD8B8011176988E9002E469C;
+			productRefGroup = AD8B801B176988E9002E469C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD8B8019176988E9002E469C /* Rainbow */,
+				AD8B803F176988EA002E469C /* RainbowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD8B8018176988E9002E469C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8B8028176988E9002E469C /* InfoPlist.strings in Resources */,
+				AD8B8030176988EA002E469C /* Default.png in Resources */,
+				AD8B8032176988EA002E469C /* Default@2x.png in Resources */,
+				AD8B8034176988EA002E469C /* Default-568h@2x.png in Resources */,
+				AD8B803A176988EA002E469C /* RBChatsViewController.xib in Resources */,
+				AD8B8070176998A9002E469C /* RBFriendsViewController.xib in Resources */,
+				AD8B8077176998BF002E469C /* RBSettingsViewController.xib in Resources */,
+				AD8B807E176998D8002E469C /* RBGroupsViewController.xib in Resources */,
+				AD8B8085176998F0002E469C /* RBProfileViewController.xib in Resources */,
+				AD8B808A17699E85002E469C /* menu-icon.png in Resources */,
+				AD8B808C17699E85002E469C /* menu-icon@2x.png in Resources */,
+				AD8B80941769D6FD002E469C /* profile.png in Resources */,
+				AD8B80971769D846002E469C /* circle_cover.png in Resources */,
+				AD8B809A1769FFD6002E469C /* bgview.png in Resources */,
+				AD8B809D1769FFFD002E469C /* start-button.png in Resources */,
+				AD8B80A2176A09EF002E469C /* notes.png in Resources */,
+				AD84344D176AED43009E078E /* commenttextbg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8B803D176988EA002E469C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8B804C176988EA002E469C /* InfoPlist.strings in Resources */,
+				AD8B8071176998A9002E469C /* RBFriendsViewController.xib in Resources */,
+				AD8B8078176998BF002E469C /* RBSettingsViewController.xib in Resources */,
+				AD8B807F176998D8002E469C /* RBGroupsViewController.xib in Resources */,
+				AD8B8086176998F0002E469C /* RBProfileViewController.xib in Resources */,
+				AD8B808B17699E85002E469C /* menu-icon.png in Resources */,
+				AD8B808D17699E85002E469C /* menu-icon@2x.png in Resources */,
+				AD8B80951769D6FD002E469C /* profile.png in Resources */,
+				AD8B80981769D846002E469C /* circle_cover.png in Resources */,
+				AD8B809B1769FFD6002E469C /* bgview.png in Resources */,
+				AD8B809E1769FFFD002E469C /* start-button.png in Resources */,
+				AD8B80A3176A09EF002E469C /* notes.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD8B803E176988EA002E469C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD8B8016176988E9002E469C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8B802A176988E9002E469C /* main.m in Sources */,
+				AD8B802E176988EA002E469C /* RBAppDelegate.m in Sources */,
+				AD8B8037176988EA002E469C /* RBChatsViewController.m in Sources */,
+				AD8B805E17698A76002E469C /* TRSideMenu.m in Sources */,
+				AD8B806017698A76002E469C /* UINavigationController+MFSideMenu.m in Sources */,
+				AD8B80641769923B002E469C /* SideMenuViewController.m in Sources */,
+				AD8B806E176998A9002E469C /* RBFriendsViewController.m in Sources */,
+				AD8B8075176998BF002E469C /* RBSettingsViewController.m in Sources */,
+				AD8B807C176998D8002E469C /* RBGroupsViewController.m in Sources */,
+				AD8B8083176998F0002E469C /* RBProfileViewController.m in Sources */,
+				AD8B80911769C6E3002E469C /* RBUserCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8B803B176988EA002E469C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8B804F176988EA002E469C /* RainbowTests.m in Sources */,
+				AD8B805F17698A76002E469C /* TRSideMenu.m in Sources */,
+				AD8B806117698A76002E469C /* UINavigationController+MFSideMenu.m in Sources */,
+				AD8B80651769923B002E469C /* SideMenuViewController.m in Sources */,
+				AD8B806F176998A9002E469C /* RBFriendsViewController.m in Sources */,
+				AD8B8076176998BF002E469C /* RBSettingsViewController.m in Sources */,
+				AD8B807D176998D8002E469C /* RBGroupsViewController.m in Sources */,
+				AD8B8084176998F0002E469C /* RBProfileViewController.m in Sources */,
+				AD8B80921769C6E3002E469C /* RBUserCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD8B8046176988EA002E469C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD8B8019176988E9002E469C /* Rainbow */;
+			targetProxy = AD8B8045176988EA002E469C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD8B8026176988E9002E469C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD8B8027176988E9002E469C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD8B8038176988EA002E469C /* RBChatsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD8B8039176988EA002E469C /* en */,
+			);
+			name = RBChatsViewController.xib;
+			sourceTree = "<group>";
+		};
+		AD8B804A176988EA002E469C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD8B804B176988EA002E469C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD8B8050176988EA002E469C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD8B8051176988EA002E469C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD8B8053176988EA002E469C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: manoj patidar";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rainbow/Rainbow-Prefix.pch";
+				INFOPLIST_FILE = "Rainbow/Rainbow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "19281AB2-F7A6-4867-ACBC-26ED7B578CAF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD8B8054176988EA002E469C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rainbow/Rainbow-Prefix.pch";
+				INFOPLIST_FILE = "Rainbow/Rainbow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD8B8056176988EA002E469C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rainbow.app/Rainbow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rainbow/Rainbow-Prefix.pch";
+				INFOPLIST_FILE = "RainbowTests/RainbowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AD8B8057176988EA002E469C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rainbow.app/Rainbow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rainbow/Rainbow-Prefix.pch";
+				INFOPLIST_FILE = "RainbowTests/RainbowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD8B8015176988E9002E469C /* Build configuration list for PBXProject "Rainbow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8B8050176988EA002E469C /* Debug */,
+				AD8B8051176988EA002E469C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8B8052176988EA002E469C /* Build configuration list for PBXNativeTarget "Rainbow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8B8053176988EA002E469C /* Debug */,
+				AD8B8054176988EA002E469C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8B8055176988EA002E469C /* Build configuration list for PBXNativeTarget "RainbowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8B8056176988EA002E469C /* Debug */,
+				AD8B8057176988EA002E469C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD8B8012176988E9002E469C /* Project object */;
+}
